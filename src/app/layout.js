@@ -38,12 +38,9 @@ export const metadata = {
     address: true,
   },
   icons: {
-    icon: [
-      { url: "/icon.svg", type: "image/svg+xml" },
-      { url: "/favicon.ico", sizes: "any" },
-    ],
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
     shortcut: "/icon.svg",
-    apple: "/icon.svg",
+    apple: "/images/logo.png",
   },
   openGraph: {
     type: "website",

@@ -10,7 +10,7 @@ export function Footer() {
       <div className="footer__grid">
         <div>
           <div className="footer__brand">
-            <Image src="/images/logo-white.svg" alt="" width={38} height={38} />
+            <Image src="/images/logo-dark.svg" alt="" width={38} height={38} />
             <span className="footer__brand-name">Essential Facility Management</span>
           </div>
           <p className="footer__tag">

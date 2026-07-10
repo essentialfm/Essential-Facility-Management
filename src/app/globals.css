@@ -207,10 +207,6 @@ button {
   white-space: nowrap;
 }
 
-.nav__wordmark span {
-  color: var(--ink-dim);
-}
-
 .nav__links {
   display: flex;
   align-items: center;
@@ -240,8 +236,14 @@ button {
   .nav__links {
     display: none;
   }
-  .nav__wordmark span {
-    display: none;
+}
+
+@media (max-width: 520px) {
+  .nav__wordmark {
+    font-size: 0.82rem;
+    white-space: normal;
+    max-width: 11ch;
+    line-height: 1.1;
   }
 }
 
@@ -297,8 +299,8 @@ button {
 }
 
 .hero__title {
-  font-size: clamp(2.6rem, 8.5vw, 7.5rem);
-  max-width: 16ch;
+  font-size: clamp(2rem, 4.6vw, 4.2rem);
+  max-width: 18ch;
 }
 
 .hero__line {

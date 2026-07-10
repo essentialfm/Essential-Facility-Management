@@ -36,9 +36,7 @@ export function Nav() {
             className="nav__logo"
             priority
           />
-          <span className="nav__wordmark">
-            EFM <span>· Essential Facility Management</span>
-          </span>
+          <span className="nav__wordmark">Essential Facility Management</span>
         </Link>
 
         <nav aria-label="Primary" className="nav__desktop">
