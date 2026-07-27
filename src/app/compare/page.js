@@ -9,7 +9,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { CheckIcon, DashIcon } from "@/components/icons";
 
 export const metadata = pageMetadata({
-  title: "Why EFM — The Best Facility Management Company in Nigeria",
+  title: "Why EFM: The Best Facility Management Company in Nigeria",
   description:
     "See how Essential Facility Management compares to typical facility management companies in Nigeria. One accountable partner for property management, operations, security, and design across Lagos and Abuja.",
   path: "/compare",
@@ -22,11 +22,11 @@ const compareFaqs = [
   },
   {
     q: "How is EFM different from other facility management companies in Lagos?",
-    a: "Most Lagos facility companies specialise in one area and outsource the rest. EFM is a single partner covering the full life of a property — leasing, operations, maintenance, security, compliance, and design — with vetted personnel and owner-accountable management.",
+    a: "Most Lagos facility companies specialise in one area and outsource the rest. EFM is a single partner covering the full life of a property: leasing, operations, maintenance, security, compliance, and design: with vetted personnel and owner-accountable management.",
   },
   {
     q: "Is EFM suitable for both homeowners and property investors?",
-    a: "Yes. EFM works with individual homeowners, landlords, and property investors, tailoring management to each owner's goals — from protecting a single residence to maximising returns across a portfolio.",
+    a: "Yes. EFM works with individual homeowners, landlords, and property investors, tailoring management to each owner's goals; from protecting a single residence to maximising returns across a portfolio.",
   },
 ];
 
@@ -53,7 +53,7 @@ export default function ComparePage() {
         <PageHero
           eyebrow="Why EFM · The comparison"
           title="Not just another facility manager in Nigeria."
-          sub="Most providers do one thing. EFM protects and grows the whole property — hands-on, accountable, and built on a referral-driven reputation across Lagos and Abuja."
+          sub="Most providers do one thing. EFM protects and grows the whole property: hands-on, accountable, and built on a referral-driven reputation across Lagos and Abuja."
           img="/images/office-waiting-area.avif"
           alt="Refined workspace managed by Essential Facility Management"
           breadcrumb={[
@@ -104,7 +104,7 @@ export default function ComparePage() {
               <h3 className="reason__title display">One accountable partner</h3>
               <p>
                 Property, operations, security, compliance, and design handled by a
-                single team — no finger-pointing between vendors, one point of
+                single team: no finger-pointing between vendors, one point of
                 accountability for everything.
               </p>
             </article>
@@ -113,7 +113,7 @@ export default function ComparePage() {
               <h3 className="reason__title display">Proactive, not reactive</h3>
               <p>
                 Preventive maintenance and transparent reporting mean problems are
-                caught before they cost you — protecting value instead of just
+                caught before they cost you; protecting value instead of just
                 responding to failures.
               </p>
             </article>
@@ -122,7 +122,7 @@ export default function ComparePage() {
               <h3 className="reason__title display">Built on referrals</h3>
               <p>
                 EFM grew from day one on trust and word of mouth, not marketing
-                budgets. The reputation is the product — and the reason clients
+                budgets. The reputation is the product, and the reason clients
                 stay.
               </p>
             </article>

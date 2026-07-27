@@ -72,7 +72,7 @@ export function Hero() {
     <section className="hero" id="top" ref={root}>
       <div className="hero__media">
         <Image
-          src="/images/poolside-side-view.avif"
+          src="/images/properties/lekki-5-bedroom/lekki-1.jpg"
           alt="Poolside view of a luxury residence managed by EFM"
           fill
           priority
@@ -82,19 +82,16 @@ export function Hero() {
       <div className="hero__scrim" aria-hidden="true" />
 
       <div className="hero__inner">
-        <p className="hero__eyebrow micro">Property &amp; Facility Management · Lagos &amp; Abuja</p>
+        <p className="hero__eyebrow micro">Property &amp; Facility Management</p>
 
         <h1 className="hero__title display">
-          <span className="hero__line"><span>We protect —</span></span>
-          <span className="hero__line"><span>and grow — the</span></span>
+          <span className="hero__line"><span>We protect and grow the</span></span>
           <span className="hero__line"><span>value of <em>exceptional</em></span></span>
           <span className="hero__line"><span>properties.</span></span>
         </h1>
 
         <p className="hero__sub">
-          Essential Facility Management delivers end-to-end estate and facility
-          solutions for Nigeria&apos;s finest residences and workplaces — managed
-          hands-on, down to the last detail.
+          Essential Facility Management delivers end-to-end estate and facility solutions for premium residential and commercial properties across Nigeria; managed hands-on, down to the last detail.
         </p>
 
         <div className="hero__ctas">
@@ -107,7 +104,7 @@ export function Hero() {
             <WhatsAppIcon />
             Request a consultation
           </a>
-          <a className="btn" href="#services">
+          <a className="btn" href="/services">
             Explore services
           </a>
         </div>

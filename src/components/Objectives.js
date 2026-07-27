@@ -13,7 +13,7 @@ const OBJECTIVES = [
   },
   {
     title: "Enhancing Operational Efficiency",
-    copy: "We apply proven facilities management practices to keep our clients' properties running smoothly — minimizing downtime and reducing operational costs.",
+    copy: "We apply proven facilities management practices to keep our clients' properties running smoothly, minimizing downtime and reducing operational costs.",
   },
   {
     title: "Sustainability",
@@ -25,7 +25,7 @@ const OBJECTIVES = [
   },
   {
     title: "Building Lasting Relationships",
-    copy: "We build strong, trust-based relationships with clients and partners — the same referral-driven reputation that has powered EFM's growth from day one.",
+    copy: "We build strong, trust-based relationships with clients and partners; the same referral-driven reputation that has powered EFM's growth from day one.",
   },
   {
     title: "Client-Centric Solutions",

@@ -28,7 +28,7 @@ export async function generateMetadata({ params }) {
   if (!loc) return {};
   return pageMetadata({
     title: `Facility Management in ${loc.name}`,
-    description: `Premium property and facility management in ${loc.name}, Nigeria by Essential Facility Management — covering ${loc.areas.slice(0, 3).join(", ")} and more. Leasing, operations, security, and design.`,
+    description: `Premium property and facility management in ${loc.name}, Nigeria by Essential Facility Management, covering ${loc.areas.slice(0, 3).join(", ")} and more. Leasing, operations, security, and design.`,
     path: `/locations/${loc.slug}`,
   });
 }

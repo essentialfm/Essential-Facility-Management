@@ -26,13 +26,13 @@ export default function ContactPage() {
       />
       <main className="contact">
         <div className="contact__media" aria-hidden="true">
-          <Image src="/images/poolside-overhead-view.avif" alt="" fill sizes="100vw" priority />
+          <Image src="/images/for-contact-page.jpg" alt="Get in touch with EFM" fill sizes="100vw" priority style={{ objectPosition: "center 30%" }} />
           <div className="contact__scrim" />
         </div>
 
         <section className="contact__inner">
           <Reveal y={30} stagger={0.1}>
-            <p className="micro">Contact · Lagos &amp; Abuja</p>
+            <p className="micro">Contact ·</p>
             <h1 className="display contact__title">
               Let&apos;s talk about <em>your property</em>.
             </h1>

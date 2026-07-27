@@ -29,7 +29,7 @@ export default function AboutPage() {
           eyebrow="About EFM · Est. March 2023"
           title="Grown from the ground up, on trust."
           sub="Essential Facility Management is a Lagos-based property and estate management company delivering exceptional, reliable facility solutions across Nigeria."
-          img="/images/outside-home-building.avif"
+          img="/images/properties/JE-Plaza/je-1.jpg"
           alt="Exterior of a residence managed by Essential Facility Management"
           breadcrumb={[
             { name: "Home", path: "/" },
@@ -46,14 +46,14 @@ export default function AboutPage() {
                 consistent, quality service.
               </p>
               <p>
-                Today we manage properties across <strong>Lagos and Abuja</strong>,
+                Today we currently manage properties across <strong>Nigeria and the United Kingdom (UK)</strong>,
                 offering end-to-end solutions spanning property management, leasing,
                 tenant placement, maintenance coordination, and day-to-day
                 operations.
               </p>
               <p>
                 What sets us apart is our hands-on approach. We don&apos;t just
-                manage properties — we protect and grow their value, while ensuring
+                manage properties: we protect and grow their value, while ensuring
                 tenants and owners alike experience seamless, professional service at
                 every touchpoint.
               </p>

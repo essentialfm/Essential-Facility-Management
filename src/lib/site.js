@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "EFM",
   tagline: "Nigeria's premier property & facility management company",
   description:
-    "Essential Facility Management (EFM) is a Lagos-based property and estate management company delivering premium facility solutions across Lagos and Abuja — property management, leasing, maintenance, security, project management, and design.",
+    "Essential Facility Management (EFM) is a Lagos-based property and estate management company delivering premium facility solutions across Lagos and Abuja; property management, leasing, maintenance, security, project management, and design.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.essentialfacilitymgt.com",
   locale: "en_NG",
   keywords: [
@@ -37,9 +37,9 @@ export const siteConfig = {
     geo: { lat: 6.5244, lng: 3.3792 },
   },
   socials: {
-    instagram: "https://www.instagram.com/essentialfacilitymgt",
+    instagram: "https://www.instagram.com/essential_fmc?igsh=OW4zdWx1cjZhYzYy&utm_source=qr",
     facebook: "https://www.facebook.com/essentialfacilitymgt",
-    tiktok: "https://www.tiktok.com/@essentialfacilitymgt",
+    x: "https://x.com/essentialfmc?s=11",
     handle: "essentialfacilitymgt",
   },
 };
@@ -47,7 +47,7 @@ export const siteConfig = {
 export const navLinks = [
   { label: "Services", href: "/services" },
   { label: "Why EFM", href: "/compare" },
-  { label: "Locations", href: "/#locations" },
+  { label: "Projects", href: "/projects" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
@@ -57,10 +57,10 @@ export const services = [
     slug: "property-estate-management",
     title: "Property & Estate Management",
     short:
-      "Full-cycle management of residences and estates — leasing, tenant placement, rent administration, and owner reporting.",
+      "Full-cycle management of residences and estates: leasing, tenant placement, rent administration, and owner reporting.",
     long:
       "We run your property end to end: marketing and leasing, tenant vetting and placement, rent collection and administration, service-charge management, and transparent owner reporting. Owners get a single accountable partner and a property that stays occupied, compliant, and profitable.",
-    img: "/images/outside-home-building.avif",
+    img: "/images/properties/lekki-5-bedroom/lekki-3.jpg",
     alt: "Exterior of a modern residential building managed by EFM",
     outcomes: ["Higher occupancy", "On-time rent collection", "Transparent owner reporting"],
   },
@@ -70,8 +70,8 @@ export const services = [
     short:
       "Day-to-day operations, preventive maintenance, and vendor coordination that keep every space running without friction.",
     long:
-      "Planned preventive maintenance, responsive repairs, cleaning and janitorial programmes, utilities and generator management, and vetted vendor coordination — all tracked and reported. We minimise downtime and reduce operating cost while keeping every space in show condition.",
-    img: "/images/office-waiting-area.avif",
+      "Planned preventive maintenance, responsive repairs, cleaning and janitorial programmes, utilities and generator management, and vetted vendor coordination, all tracked and reported. We minimise downtime and reduce operating cost while keeping every space in show condition.",
+    img: "/images/skyscraper-cleaning.png",
     alt: "Refined office waiting area maintained by EFM",
     outcomes: ["Less downtime", "Lower operating cost", "Show-ready spaces"],
   },
@@ -82,7 +82,7 @@ export const services = [
       "Vetted personnel, access control, and round-the-clock protocols that keep properties, tenants, and assets protected.",
     long:
       "Trained and vetted security personnel, access control, CCTV coordination, visitor management, and 24/7 protocols tailored to each estate. Residents and owners get genuine peace of mind and a documented chain of accountability.",
-    img: "/images/outside-of-a-home.avif",
+    img: "/images/security.png",
     alt: "Secured exterior of a private home",
     outcomes: ["24/7 protection", "Access control", "Vetted personnel"],
   },
@@ -92,8 +92,8 @@ export const services = [
     short:
       "Renovations, fit-outs, and capital projects delivered on schedule and on budget, from scoping through handover.",
     long:
-      "From scoping and budgeting to contractor selection, site supervision, quality control, and handover — we manage renovations, fit-outs, and capital projects so they land on time, on budget, and to a standard that adds value.",
-    img: "/images/poolside-overhead-view.avif",
+      "From scoping and budgeting to contractor selection, site supervision, quality control, and handover; we manage renovations, fit-outs, and capital projects so they land on time, on budget, and to a standard that adds value.",
+    img: "/images/renovation.png",
     alt: "Overhead view of a residential poolside project",
     outcomes: ["On schedule", "On budget", "Quality-controlled"],
   },
@@ -104,7 +104,7 @@ export const services = [
       "Documentation, regulatory compliance, and dispute resolution handled with rigour, so owners stay fully covered.",
     long:
       "Tenancy documentation, regulatory and statutory compliance, service-charge governance, and dispute resolution handled with rigour. Owners stay protected and every obligation is properly recorded.",
-    img: "/images/sitting-room-cross-section.avif",
+    img: "/images/documentation.png",
     alt: "Cross-section view of an elegant sitting room",
     outcomes: ["Full compliance", "Proper documentation", "Dispute resolution"],
   },
@@ -112,11 +112,11 @@ export const services = [
     slug: "interior-exterior-design",
     title: "Exterior & Interior Design",
     short:
-      "Considered design and finishing that elevate a property's character — and its market value.",
+      "Considered design and finishing that elevate a property's character, and its market value.",
     long:
-      "Design, furnishing, and finishing that raise a property's character and market value — from landscaping and façade to interior styling and turnkey short-let staging. Done in-house, coordinated with our operations team.",
-    img: "/images/fancy-kitchen-area.avif",
-    alt: "High-end kitchen with premium finishes",
+      "Design, furnishing, and finishing that raise a property's character and market value, from landscaping and façade to interior styling and turnkey short-let staging. Done in-house, coordinated with our operations team.",
+    img: "/images/interior-decor.png",
+    alt: "A high-end interior design of an office waiting area with a sofa and spiral staircase",
     outcomes: ["Higher market value", "Turnkey finishing", "In-house delivery"],
   },
 ];
@@ -128,7 +128,7 @@ export const objectives = [
   },
   {
     title: "Enhancing Operational Efficiency",
-    copy: "Proven facilities practices keep properties running smoothly — minimizing downtime and reducing operational cost.",
+    copy: "Proven facilities practices keep properties running smoothly, minimizing downtime and reducing operational cost.",
   },
   {
     title: "Sustainability",
@@ -140,7 +140,7 @@ export const objectives = [
   },
   {
     title: "Building Lasting Relationships",
-    copy: "We build trust-based relationships with clients and partners — the referral engine that has powered EFM from day one.",
+    copy: "We build trust-based relationships with clients and partners, the referral engine that has powered EFM from day one.",
   },
   {
     title: "Client-Centric Solutions",
@@ -155,8 +155,8 @@ export const locations = {
     region: "Lagos State",
     geo: { lat: 6.5244, lng: 3.3792 },
     intro:
-      "Essential Facility Management provides premium property and facility management across Lagos — from Lekki, Ikoyi, and Victoria Island to Ikeja and the mainland.",
-    areas: ["Lekki", "Ikoyi", "Victoria Island", "Ikeja", "Ajah", "Banana Island", "Magodo"],
+      "Essential Facility Management provides premium property and facility management across Lagos; from Lekki, Ikoyi, and Victoria Island to Ikeja and the mainland.",
+    areas: ["Lekki", "Victoria Island", "Ajah", "United Kingdom (UK)"],
     img: "/images/poolside-side-view.avif",
   },
   abuja: {
@@ -165,7 +165,7 @@ export const locations = {
     region: "Federal Capital Territory",
     geo: { lat: 9.0765, lng: 7.3986 },
     intro:
-      "Essential Facility Management delivers full-service property and estate management across Abuja and the FCT — from Maitama and Asokoro to Wuse, Jabi, and Guzape.",
+      "Essential Facility Management delivers full-service property and estate management across Abuja and the FCT: from Maitama and Asokoro to Wuse, Jabi, and Guzape.",
     areas: ["Maitama", "Asokoro", "Wuse", "Jabi", "Guzape", "Gwarinpa", "Katampe"],
     img: "/images/outside-of-a-home.avif",
   },
@@ -189,7 +189,7 @@ export const comparison = {
 export const faqs = [
   {
     q: "What is the best facility management company in Nigeria?",
-    a: "Essential Facility Management (EFM) is a leading property and facility management company in Nigeria, operating across Lagos and Abuja. EFM offers end-to-end management — property and estate management, facility operations, security, project management, legal and compliance support, and interior and exterior design — built on a hands-on, owner-accountable model and a referral-driven reputation.",
+    a: "Essential Facility Management (EFM) is a leading property and facility management company in Nigeria, operating across Lagos and Abuja. EFM offers end-to-end management; property and estate management, facility operations, security, project management, legal and compliance support, and interior and exterior design; built on a hands-on, owner-accountable model and a referral-driven reputation.",
   },
   {
     q: "Where does Essential Facility Management operate?",
@@ -197,7 +197,7 @@ export const faqs = [
   },
   {
     q: "What services does EFM provide?",
-    a: "EFM provides property and estate management, facility operations solutions, security services, project management, legal and compliance support, and exterior and interior design — all coordinated by a single accountable team.",
+    a: "EFM provides property and estate management, facility operations solutions, security services, project management, legal and compliance support, and exterior and interior design; all coordinated by a single accountable team.",
   },
   {
     q: "How do I contact Essential Facility Management?",

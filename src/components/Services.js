@@ -10,39 +10,39 @@ gsap.registerPlugin(ScrollTrigger);
 const SERVICES = [
   {
     title: "Property & Estate Management",
-    desc: "Full-cycle management of residences and estates — leasing, tenant placement, rent administration, and owner reporting.",
-    img: "/images/outside-home-building.avif",
+    desc: "Full-cycle management of residences and estates: leasing, tenant placement, rent administration, and owner reporting.",
+    img: "/images/outside-of-a-home.avif",
     alt: "Exterior of a modern residential building",
   },
   {
     title: "Facility Operations Solutions",
     desc: "Day-to-day operations, preventive maintenance, and vendor coordination that keep every space running without friction.",
-    img: "/images/office-waiting-area.avif",
+    img: "/images/skyscraper-cleaning.png",
     alt: "Refined office waiting area",
   },
   {
     title: "Security Services",
     desc: "Vetted personnel, access control, and round-the-clock protocols that keep properties, tenants, and assets protected.",
-    img: "/images/outside-of-a-home.avif",
+    img: "/images/security.png",
     alt: "Secure exterior of a private home",
   },
   {
     title: "Project Management",
     desc: "Renovations, fit-outs, and capital projects delivered on schedule and on budget, from scoping through handover.",
-    img: "/images/poolside-overhead-view.avif",
-    alt: "Overhead view of a residential poolside",
+    img: "/images/renovation.png",
+    alt: "Men renovating, painting a residential apartment",
   },
   {
     title: "Legal & Compliance Support",
     desc: "Documentation, regulatory compliance, and dispute resolution handled with rigour, so owners stay fully covered.",
-    img: "/images/sitting-room-cross-section.avif",
-    alt: "Cross-section view of an elegant sitting room",
+    img: "/images/documentation.png",
+    alt: "A demo C of O document",
   },
   {
     title: "Exterior & Interior Design",
-    desc: "Considered design and finishing that elevate a property's character — and its market value.",
-    img: "/images/fancy-kitchen-area.avif",
-    alt: "High-end kitchen area with premium finishes",
+    desc: "Considered design and finishing that elevate a property's character, and its market value.",
+    img: "/images/interior-decor.png",
+    alt: "A high-end interior design of an office waiting area with a sofa and spiral staircase",
   },
 ];
 

@@ -32,6 +32,18 @@ export function Footer() {
         </div>
 
         <div>
+          <p className="footer__heading micro micro--dim">Locations</p>
+          <ul className="footer__list">
+            <li>
+              <Link href="/locations/lagos">Lagos</Link>
+            </li>
+            <li>
+              <Link href="/locations/abuja">Abuja</Link>
+            </li>
+          </ul>
+        </div>
+
+        <div>
           <p className="footer__heading micro micro--dim">Contact</p>
           <ul className="footer__list">
             <li>
@@ -56,14 +68,14 @@ export function Footer() {
                 Instagram
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href={socials.facebook} target="_blank" rel="noopener noreferrer">
                 Facebook
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href={socials.tiktok} target="_blank" rel="noopener noreferrer">
-                TikTok
+              <a href={socials.x} target="_blank" rel="noopener noreferrer">
+                X
               </a>
             </li>
           </ul>

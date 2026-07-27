@@ -6,6 +6,7 @@ import { Hero } from "@/components/Hero";
 import { PromiseStrip } from "@/components/PromiseStrip";
 import { Services } from "@/components/Services";
 import { About } from "@/components/About";
+import { CEO } from "@/components/CEO";
 import { Locations } from "@/components/Locations";
 import { Objectives } from "@/components/Objectives";
 import { Faq } from "@/components/Faq";
@@ -23,6 +24,7 @@ export default function Home() {
         <PromiseStrip />
         <Services />
         <About />
+        <CEO />
         <section className="wrap">
           <Locations />
         </section>

@@ -12,7 +12,7 @@ import { CheckIcon } from "@/components/icons";
 export const metadata = pageMetadata({
   title: "Facility Management Services in Lagos & Abuja",
   description:
-    "Explore Essential Facility Management's services across Nigeria — property & estate management, facility operations, security, project management, legal & compliance, and interior & exterior design.",
+    "Explore Essential Facility Management's services across Nigeria, property & estate management, facility operations, security, project management, legal & compliance, and interior & exterior design.",
   path: "/services",
 });
 
@@ -21,7 +21,7 @@ const serviceFaqs = [
   faqs[5],
   {
     q: "Does EFM offer preventive maintenance?",
-    a: "Yes. EFM runs planned preventive maintenance programmes alongside responsive repairs, so issues are caught early — reducing downtime and long-term cost for property owners in Lagos and Abuja.",
+    a: "Yes. EFM runs planned preventive maintenance programmes alongside responsive repairs, so issues are caught early, reducing downtime and long-term cost for property owners in Lagos and Abuja.",
   },
 ];
 
@@ -80,7 +80,7 @@ export default function ServicesPage() {
         </div>
 
         <section className="wrap">
-          <Faq items={serviceFaqs} title="Services — questions answered" index="02" />
+          <Faq items={serviceFaqs} title="Services: questions answered" index="02" />
         </section>
 
         <CtaBand

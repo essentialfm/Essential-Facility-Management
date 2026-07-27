@@ -87,7 +87,7 @@ export function About() {
             </p>
             <p>
               Since our founding in <strong>March 2023</strong>, we&apos;ve grown from
-              the ground up — built not on big marketing budgets, but on trust,
+              the ground up; built not on big marketing budgets, but on trust,
               referrals, and consistent, quality service. Today we manage
               properties across <strong>Lagos and Abuja</strong>, offering end-to-end
               solutions spanning property management, leasing, tenant placement,
@@ -96,7 +96,7 @@ export function About() {
           </div>
 
           <blockquote className="about__pull">
-            &ldquo;We don&apos;t just manage properties — we protect and grow their
+            &ldquo;We don&apos;t just manage properties, we protect and grow their
             value.&rdquo;
           </blockquote>
 
@@ -104,14 +104,14 @@ export function About() {
             <p>
               What sets us apart is our hands-on approach: tenants and property
               owners alike experience seamless, professional service at every
-              touchpoint. Every property we manage reflects our core belief — no
-              job is complete until the client is completely satisfied.
+              touchpoint. Every property we manage reflects our core belief: <em>no
+              job is complete until the client is completely satisfied.</em>
             </p>
           </div>
 
           <div className="about__chips">
             <span className="chip"><strong>Founded</strong> March 2023</span>
-            <span className="chip"><strong>Lagos</strong> &amp; Abuja</span>
+            <span className="chip"><strong>Multiple</strong> locations</span>
             <span className="chip"><strong>Referral</strong>-driven</span>
             <span className="chip"><strong>RC</strong> {siteConfig.company.rcNumber}</span>
           </div>
@@ -121,7 +121,7 @@ export function About() {
           <figure className="about__photo about__photo--tall">
             <div className="parallax-img">
               <Image
-                src="/images/sitting-room.avif"
+                src="/images/properties/JE-Plaza/je-1.jpg"
                 alt="Elegant sitting room in an EFM-managed residence"
                 fill
                 sizes="(max-width: 860px) 100vw, 45vw"
@@ -131,14 +131,14 @@ export function About() {
           <figure className="about__photo about__photo--wide">
             <div className="parallax-img">
               <Image
-                src="/images/fancy-kitchen-area.avif"
+                src="/images/properties/Qwess-mall/qwess-5.jpg"
                 alt="Premium kitchen area with modern finishes"
                 fill
                 sizes="(max-width: 860px) 100vw, 38vw"
               />
             </div>
           </figure>
-          <p className="about__caption">Interiors — managed residences, Lagos</p>
+          <p className="about__caption">Shopping Complexes managed, Lagos</p>
         </div>
       </div>
     </section>
