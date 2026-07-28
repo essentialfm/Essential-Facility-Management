@@ -72,8 +72,8 @@ export function Hero() {
     <section className="hero" id="top" ref={root}>
       <div className="hero__media">
         <Image
-          src="/images/properties/lekki-5-bedroom/lekki-1.jpg"
-          alt="Poolside view of a luxury residence managed by EFM"
+          src="/images/properties/Lekki-5-bedroom/lekki-1.jpg"
+          alt="a luxury residence in Lekki managed by EFM"
           fill
           priority
           sizes="100vw"
