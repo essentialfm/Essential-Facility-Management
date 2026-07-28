@@ -27,7 +27,7 @@ export function CEO() {
             {/* Square transparent social buttons overlay on the photo */}
             <div className="ceo__socials-overlay">
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/emmanuel-nnadozie-a874a0187?utm_source=share_via&utm_content=profile&utm_medium=member_ios" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="ceo__social-btn"
@@ -39,7 +39,7 @@ export function CEO() {
                 </svg>
                 <span className="ceo__tooltip">LinkedIn</span>
               </a>
-              <a 
+              {/* <a 
                 href="https://instagram.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -53,7 +53,7 @@ export function CEO() {
                   <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                 </svg>
                 <span className="ceo__tooltip">Instagram</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </Reveal>
@@ -67,14 +67,16 @@ export function CEO() {
           
           <div className="ceo__bio">
             <p>
-              &ldquo;At Essential Facility Management, we hold ourselves to a single, uncompromising standard: 
-              owner-accountable service. When you trust us with your property, you aren&apos;t just hiring a manager; 
-              you are partnering with an extension of your own team dedicated to protecting and maximizing your real estate investment.&rdquo;
+              &ldquo;When I launched Essential Facility Management, it represented years of hard work, learning, and passion. Long before our official launch in 2023, I had been quietly building this vision, testing ideas, helping property owners and tenants navigate real estate safely, and finding ways to make property management simpler and more reliable for everyday people. What began as a personal effort to help clients find trustworthy management for their properties has grown into a company now serving a growing community of property owners, tenants, and businesses across Lagos and Abuja.&rdquo;
             </p>
             <p>
-              &ldquo;Our growth is fueled entirely by trust and personal referrals. We believe facility management 
-              is built on daily execution, transparency, and a relentless focus on detail. No matter the scale, 
-              our promise remains simple: no job is complete until our clients are completely satisfied.&rdquo;
+              &ldquo;Our mission has always been clear: to make property and facility management efficient, professional, and trustworthy. Since bringing EFM to life, we've built a reputation rooted in referrals and results, and a community that relies on us for secure, seamless management of their most valuable assets.&rdquo;
+            </p>
+            <p>
+              &ldquo;Looking ahead, our focus is to position Essential Facility Management as the leading name in property and estate management, security, project management, facility operations, legal and compliance support, and interior and exterior design across Nigeria. We're investing in innovation to transform how people experience property management, starting here and extending further.&rdquo;
+            </p>
+            <p>
+              &ldquo;Thank you for choosing Essential Facility Management. Together, we're shaping the future of property and facility management in Nigeria, and beyond.&rdquo;
             </p>
           </div>
 
