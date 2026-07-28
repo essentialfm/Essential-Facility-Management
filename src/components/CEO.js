@@ -80,10 +80,10 @@ export function CEO() {
             </p>
           </div>
 
-          <div className="ceo__signature-box">
+          {/* <div className="ceo__signature-box">
             <p className="ceo__signature-name">Emmanuel Nnadozie Powers</p>
             <p className="micro micro--dim">Founder &amp; CEO, EFM</p>
-          </div>
+          </div> */}
         </Reveal>
       </div>
     </section>

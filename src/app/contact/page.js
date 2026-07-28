@@ -9,7 +9,7 @@ import { WhatsAppIcon, MailIcon, ArrowIcon } from "@/components/icons";
 export const metadata = pageMetadata({
   title: "Contact Essential Facility Management",
   description:
-    "Talk to Essential Facility Management about property and facility management in Lagos and Abuja. WhatsApp or call +234 814 340 2222, or email info@essentialfacilitymgt.com.",
+    "Talk to Essential Facility Management about property and facility management in Lagos and Abuja. WhatsApp or call +234 806 603 0376, or email info@essentialfacilitymgt.com.",
   path: "/contact",
 });
 

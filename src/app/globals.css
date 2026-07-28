@@ -2368,7 +2368,7 @@ button {
 
 .ceo__bio p {
   color: var(--ink-dim);
-  font-size: 1.05rem;
+  font-size: 0.8rem;
   line-height: 1.6;
   font-style: italic;
 }

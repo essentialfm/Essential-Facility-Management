@@ -26,9 +26,9 @@ export const siteConfig = {
     name: "Essential Facility Management",
     legalName: "Essential Facility Management",
     email: "info@essentialfacilitymgt.com",
-    phone: "+234-814-340-2222",
-    phoneDisplay: "+234 814 340 2222",
-    whatsapp: "https://wa.me/2348143402222",
+    phone: "+2348066030376",
+    phoneDisplay: "+234 806 603 0376",
+    whatsapp: "https://wa.me/2348066030376",
     rcNumber: "6901537",
     founded: "2023-03",
     foundedYear: "2023",
@@ -201,7 +201,7 @@ export const faqs = [
   },
   {
     q: "How do I contact Essential Facility Management?",
-    a: "You can reach EFM on WhatsApp or phone at +234 814 340 2222, by email at info@essentialfacilitymgt.com, or on Instagram, Facebook, and TikTok at @essentialfacilitymgt.",
+    a: "You can reach EFM on WhatsApp or phone at +2348066030376, by email at info@essentialfacilitymgt.com, or on Instagram, Facebook, and TikTok at @essentialfacilitymgt.",
   },
   {
     q: "When was Essential Facility Management founded?",
