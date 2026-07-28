@@ -60,7 +60,7 @@ export const services = [
       "Full-cycle management of residences and estates: leasing, tenant placement, rent administration, and owner reporting.",
     long:
       "We run your property end to end: marketing and leasing, tenant vetting and placement, rent collection and administration, service-charge management, and transparent owner reporting. Owners get a single accountable partner and a property that stays occupied, compliant, and profitable.",
-    img: "/images/properties/lekki-5-bedroom/lekki-3.jpg",
+    img: "/images/properties/Lekki-5-bedroom/lekki-3.jpg",
     alt: "Exterior of a modern residential building managed by EFM",
     outcomes: ["Higher occupancy", "On-time rent collection", "Transparent owner reporting"],
   },

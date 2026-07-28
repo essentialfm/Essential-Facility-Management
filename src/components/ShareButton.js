@@ -42,7 +42,7 @@ export function ShareButton() {
       </button>
       <div className="share__links">
         <a
-          href={`https://wa.me/?text=${encodedText}%20${encodedUrl}`}
+          href={`https://wa.me/2348066030376?text=${encodedText}%20${encodedUrl}`}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Share on WhatsApp"

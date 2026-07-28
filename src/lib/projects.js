@@ -48,7 +48,7 @@ export const projects = [
   {
     slug: "je-plaza",
     name: "JE Plaza",
-    location: "Ikeja, Lagos",
+    location: "Lekki, Lagos",
     city: "lagos",
     type: "Commercial",
     intro: "A state-of-the-art office plaza located in Ikeja, Lagos, housing top corporate tenants and professional firms.",
@@ -73,7 +73,7 @@ export const projects = [
   {
     slug: "qwess-mall",
     name: "Qwess Mall",
-    location: "Victoria Island, Lagos",
+    location: "Ikota, Lagos",
     city: "lagos",
     type: "Commercial / Retail",
     intro: "A vibrant, high-traffic commercial mall in Victoria Island, Lagos, featuring prime retail outlets and top-tier amenities.",

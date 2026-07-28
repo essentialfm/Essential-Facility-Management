@@ -54,7 +54,7 @@ export default function ComparePage() {
           eyebrow="Why EFM · The comparison"
           title="Not just another facility manager in Nigeria."
           sub="Most providers do one thing. EFM protects and grows the whole property: hands-on, accountable, and built on a referral-driven reputation across Lagos and Abuja."
-          img="/images/office-waiting-area.avif"
+          img="images/properties/Lekki-5-bedroom/lekki-3.jpg"
           alt="Refined workspace managed by Essential Facility Management"
           breadcrumb={[
             { name: "Home", path: "/" },
