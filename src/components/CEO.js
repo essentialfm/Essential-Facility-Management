@@ -15,7 +15,7 @@ export function CEO() {
         <Reveal className="ceo__image-wrapper" y={30}>
           <div className="ceo__photo-frame">
             <Image
-              src="/images/ceo-picture.jpg"
+              src="/images/ceo-picture.png"
               alt="Emmanuel Nnadozie - CEO of Essential Facility Management"
               fill
               sizes="(max-width: 860px) 100vw, 40vw"
