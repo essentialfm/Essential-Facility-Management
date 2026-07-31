@@ -64,7 +64,7 @@ export default function AboutPage() {
             </Reveal>
             <Reveal className="about-story__media" y={40}>
               <div className="about-story__photo">
-                <Image src="/images/sitting-room-cross-section.avif" alt="Interior of a managed residence" fill sizes="(max-width: 860px) 100vw, 40vw" />
+                <Image src="/images/properties/Shortlet-Interior/balcony-view-2.jpeg" alt="Interior of a managed residence" fill sizes="(max-width: 860px) 100vw, 40vw" />
               </div>
               <div className="about-story__chips">
                 <span className="chip"><strong>Founded</strong> 2023</span>
