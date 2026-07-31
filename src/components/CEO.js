@@ -16,7 +16,7 @@ export function CEO() {
           <div className="ceo__photo-frame">
             <Image
               src="/images/ceo-picture.jpg"
-              alt="Emmanuel Nnadozie Powers - CEO of Essential Facility Management"
+              alt="Emmanuel Nnadozie - CEO of Essential Facility Management"
               fill
               sizes="(max-width: 860px) 100vw, 40vw"
               priority
@@ -61,7 +61,7 @@ export function CEO() {
         <Reveal className="ceo__content" stagger={0.09} y={20}>
           <span className="micro micro--dim">Message from our CEO</span>
           <h2 className="ceo__title display">
-            Emmanuel Nnadozie <em>Powers</em>
+            Emmanuel <em>Nnadozie</em>
           </h2>
           <p className="ceo__subtitle">Chief Executive Officer</p>
           
@@ -81,7 +81,7 @@ export function CEO() {
           </div>
 
           {/* <div className="ceo__signature-box">
-            <p className="ceo__signature-name">Emmanuel Nnadozie Powers</p>
+            <p className="ceo__signature-name">Emmanuel Nnadozie</p>
             <p className="micro micro--dim">Founder &amp; CEO, EFM</p>
           </div> */}
         </Reveal>

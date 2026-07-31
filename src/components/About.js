@@ -131,8 +131,8 @@ export function About() {
           <figure className="about__photo about__photo--wide">
             <div className="parallax-img">
               <Image
-                src="/images/properties/Qwess-mall/qwess-5.jpg"
-                alt="Premium kitchen area with modern finishes"
+                src="/images/properties/Shortlet-Interior/parlor-view-1.jpeg"
+                alt="Premium sitting room with modern finishes"
                 fill
                 sizes="(max-width: 860px) 100vw, 38vw"
               />

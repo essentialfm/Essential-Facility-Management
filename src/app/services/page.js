@@ -44,7 +44,7 @@ export default function ServicesPage() {
           eyebrow="Services · Lagos & Abuja"
           title="Everything your property needs, under one roof."
           sub="Six disciplines, one accountable team. From leasing and maintenance to security and design, EFM manages the full life of your property."
-          img="/images/sitting-room.avif"
+          img="/images/properties/Shortlet-Interior/parlor-view-4.jpeg"
           alt="Elegant interior of a property managed by EFM"
           breadcrumb={[
             { name: "Home", path: "/" },
